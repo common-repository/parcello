@@ -1,0 +1,620 @@
+.parcello__wrapper {
+  box-sizing: border-box;
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  --content-background: #f7f7f7;
+  --parcello-grey: #f4f4f4;
+  --font-color-headlines: #000;
+  --font-color: #898989;
+  --font-color-lighter: #969696;
+  --parcello-inactive: #aeaeae;
+  --parcello-inactive-hover: #898989;
+  --parcello-border: #d7d7d7;
+  --parcello-order-received: #dedede;
+  --parcello-ready-to-ship: #e3d5bd;
+  --parcello-on-the-way: #7e95ad;
+  --parcello-last-mile: #bde0fe;
+  --parcello-shipment-problem: #feda33;
+  --parcello-client-has-to-pickup: #def2ea;
+  --parcello-client-has-package: #b6be75;
+  --parcello-retour: #f16d64;
+
+
+  --parcello-content-max-width: #fff;
+  --parcello-content-padding: #fff;
+
+  --parcello-grid-gap: #fff;
+
+  --parcello-background-color: #fff;
+  --parcello-foreground-color: #000;
+
+  --parcello-card-background-color: #fafafa;
+  --parcello-card-foreground-color: #000;
+  --parcello-card-foreground-accent-color: #444;
+  --parcello-card-foreground-highlight-color: #4f4;
+  --parcello-card-border-radius: 15px;
+  --parcello-card-box-shadow: 15px;
+  --parcello-card-padding: #fff;
+
+  --parcello-button-foreground-color: #000;
+  --parcello-button-background-color: #000;
+
+  --parcello-button-hover-foreground-color: #000;
+  --parcello-button-hover-background-color: #000;
+
+  --parcello-warning-foreground-color: #000;
+  --parcello-warning-background-color: #000;
+
+  --ion-color-base: var(--ion-color-dark,#222428)!important;
+
+}
+
+@media (min-width: 800px) {
+  .parcello__wrapper {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: minmax(100px, 300px) 5fr;
+  }
+}
+
+
+.parcello__wrapper input {
+  border-radius: 10px;
+  border: 0;
+  padding: 12px 17px;
+  font-size: 16px;
+  transition: 500ms all ease-in-out;
+  background-color: var(--content-background);
+}
+
+.parcello__meta_box_shipping_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.parcello__wrapper textarea {
+  min-height: 300px;
+}
+
+.parcello__wrapper textarea, .parcello__wrapper .CodeMirror.CodeMirror-wrap {
+  border-radius: 10px;
+  border: 0;
+  padding: 12px 17px;
+  font-size: 16px;
+  transition: 500ms all ease-in-out;
+  background-color: var(--content-background);
+}
+
+.parcello__canvas .CodeMirror-activeline, .parcello__wrapper .CodeMirror-code, .parcello__wrapper .CodeMirror-activeline-background.CodeMirror-linebackground {
+  background-color: transparent;
+}
+
+
+.parcello__wrapper h1 {
+  font-size: 37px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.parcello__wrapper h2 {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 600;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.parcello__wrapper h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.parcello__wrapper h4 {
+  margin-bottom: 5px;
+}
+
+
+.parcello__wrapper p,
+.parcello__wrapper span,
+.parcello__wrapper strong {
+  color: var(--font-color);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+
+.parcello__header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+.parcello__sidebar {
+  padding-top: 70px;
+}
+
+.parcello__page_wrapper {
+
+}
+
+.parcello__canvas {
+  background-color: #fff;
+  margin-right: 20px;
+  margin-top: 30px;
+  border-radius: 6px;
+  max-width: 600px;
+  box-shadow: 0 0 20px #00000017;
+  padding: 45px;
+}
+
+.parcello__canvas--big {
+  max-width: 700px;
+}
+
+@keyframes slide_down {
+  from {
+    top: -30px;
+    opacity: 0;
+  } to {
+    top: 20px;
+    opacity: 1;
+  }
+}
+
+@keyframes slide_up {
+  from {
+    top: 20px;
+  } to {
+    top: -30px;
+  }
+}
+
+.parcello__information_wrapper {
+
+}
+
+.parcello__information {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px #00000017;
+  border-radius: 10px;
+  animation: slide_down 0.7s ease-in-out;
+  animation-delay: 500ms;
+  top: -30px;
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+}
+
+
+.parcello__sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.parcello__sidebar nav a {
+  color: var(--parcello-inactive);
+  text-decoration: 0;
+  font-size: 15px;
+  margin-bottom: 10px;
+  box-shadow: none;
+}
+
+.parcello__sidebar nav a:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+
+.parcello__sidebar-seperator {
+  height: 1px;
+  background-color: var(--font-color-lighter);
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.parcello__sidebar nav a.parcello__sidebar-link--active {
+  color: var(--font-color-headlines);
+}
+
+.parcello__sidebar nav a:hover {
+  color: var(--font-color);
+}
+
+.parcello__logo_wrapper {
+  position: relative;
+  width: 150px;
+}
+
+.parcello__logo_addon {
+  color: var(--font-color);
+  font-weight: 600;
+  font-size: 13px;
+  position: absolute;
+  right: 20px;
+  bottom: -10px;
+}
+
+.parcello__logo {
+  display: block;
+  width: 100%;
+}
+
+.parcello__title {
+  margin-top: 0;
+}
+
+
+.parcello__connect_view {
+}
+
+.parcello__connect_view__description {
+  margin-bottom: 50px;
+}
+
+.parcello__button, form .button.button-primary {
+  border-radius: 10px;
+  border: 0;
+  background-color: var(--ion-color-base);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 300ms all ease-in-out;
+  font-size: 16px;
+  line-height: 1.6;
+  border: 0;
+  outline: none;
+}
+
+.parcello__button:hover, .parcello__button:focus, .parcello__button:active, form .button.button-primary:hover, form .button.button-primary:focus, form .button.button-primary:active{
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.parcello__space {}
+
+.parcello__code_box {
+  display: inline-block;
+  background-color: var(--parcello-grey);
+  color: var(--font-color-headlines);
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+@media (min-width: 800px) {
+  .parcello__code_box {
+    font-size: 130%;
+    padding: 30px;
+  }
+}
+
+.parcello__action_bar {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15px;
+}
+
+.parcello__action_bar a {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+
+.parcello__form_row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.parcello__form_column {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.parcello__form_row--reverse {
+  flex-direction: row-reverse;
+}
+
+.parcello__form_row .submit {
+  margin: 0;
+  padding: 0;
+}
+
+
+.parcello__demomode_url {
+  display: block;
+  padding: 10px;
+  color: var(--font-color);
+  text-decoration: none;
+  text-align: center;
+}
+
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: var(--font-color);
+  width: 220px;
+  height: 40px;
+}
+
+.select-styled {
+  position: absolute;
+  border-radius: 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--parcello-grey);
+  padding: 8px 15px;
+  padding-right: 20px;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-styled > span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  font-size: 14px;
+}
+
+.select-styled:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-color: var(--font-color) transparent transparent transparent;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+.select-styled:active:after, .select-styled.active:after {
+  margin-bottom: 10px;
+  border-color: transparent transparent #000 transparent;
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00000017;
+}
+.select-options li {
+  margin: 0;
+  padding: 12px 0;
+  text-indent: 15px;
+  font-size: 14px;
+  color: var(--font-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -moz-transition: all 0.15s ease-in;
+  -o-transition: all 0.15s ease-in;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+  box-sizing: border-box;
+  padding-right: 10px;
+}
+
+.select-options li:first-of-type {
+  display: none;
+}
+
+.select-options li:hover, .select-options li.is-selected {
+  color: #000;
+  background: var(--parcello-grey);
+}
+.select-options li[rel="hide"] {
+  display: none;
+}
+
+.parcello__clipboard_button {
+  border: 0;
+  padding: 10px;
+  background-color: transparent;
+}
+
+
+.parcello__shipping_row {
+  display: flex;
+
+  flex-direction: column;
+  border-bottom: 1px solid var(--parcello-grey);
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+
+@media (min-width: 800px) {
+  .parcello__shipping_row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    border-bottom: 1px solid var(--parcello-grey);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+  }
+}
+
+.parcello__shipping_row:hover {
+  background: var(--parcello-grey);
+}
+
+.parcello__shipping_row_column {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parcello__shipping_row_state {
+  font-size: 9px !important;
+  padding: 10px 8px;
+  border-radius: 50px;
+  display: inline;
+  text-align: center;
+}
+
+.parcello__shipping_row_state--ORDER_RECEIVED {
+  background-color: var(--parcello-order-received)
+}
+
+.parcello__shipping_row_state--READY_TO_SHIP {
+  background-color: var(--parcello-ready-to-ship)
+}
+
+.parcello__shipping_row_state--ON_THE_WAY {
+  background-color: var(--parcello-order-received)
+}
+
+.parcello__shipping_row_state--LAST_MILE {
+  background-color: var(--parcello-last-mile)
+}
+
+.parcello__shipping_row_state--SHIPMENT_PROBLEM {
+  background-color: var(--parcello-shipment-problem)
+}
+
+.parcello__shipping_row_state--CLIENT_HAS_TO_PICKUP {
+  background-color: var(--parcello-client-has-to-pickup)
+}
+
+.parcello__shipping_row_state--CLIENT_HAS_PACKAGE {
+  background-color: var(--parcello-client-has-package)
+}
+
+.parcello__shipping_row_state--RETOUR {
+  background-color: var(--parcello-retour)
+}
+
+
+
+
+.parcello__badge {
+  display: inline-flex;
+  border-radius: 50px;
+  background-color: #444;
+  color: #fff;
+  font-size: 10px;
+  line-height: 10px;
+  min-width: 17px;
+  height: 17px;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-10px);
+}
+
+
+
+#parcello_form_loader {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255,255,255,.3);
+  border-radius: 50%;
+  border-top-color: #444;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+.parcello__hint {
+  color: rgb(194, 3, 3);
+}
+
+
+/* Animations */
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+/* Modifier  */
+
+.parcello__badge--red {
+  background-color: rgb(194, 3, 3);
+}
+
+.parcello__space--50 {
+  height: 50px;
+}
+
+.parcello__space--30 {
+  height: 30px;
+}
+
+.parcello__space--25 {
+  height: 25px;
+}
+
+.parcello__space--20 {
+  height: 20px;
+}
+
+.parcello__space--10 {
+  height: 10px;
+}
+
+.parcello__information--successfull {
+  background-color: #25d18f;
+  color: #fff;
+}
+
+.parcello__button--clear {
+  background-color: var(--content-background);
+  color: #000;
+}
+
+.parcello__button--clear:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* Primitives */
+.hidden {
+  display: none !important;
+}

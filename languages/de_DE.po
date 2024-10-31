@@ -1,0 +1,421 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parcello\n"
+"POT-Creation-Date: 2022-06-14 15:59+0200\n"
+"PO-Revision-Date: 2022-06-14 16:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: parcello.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: components/latest-shipments.php:33
+msgid "ORDER_RECEIVED"
+msgstr "Sendung angekündigt"
+
+#: components/latest-shipments.php:34
+msgid "READY_TO_SHIP"
+msgstr "Versandbereit"
+
+#: components/latest-shipments.php:35
+msgid "ON_THE_WAY"
+msgstr "Unterwegs"
+
+#: components/latest-shipments.php:36
+msgid "LAST_MILE"
+msgstr "Kurz vor Zustellung"
+
+#: components/latest-shipments.php:37
+msgid "SHIPMENT_PROBLEM"
+msgstr "Problem"
+
+#: components/latest-shipments.php:38
+msgid "CLIENT_HAS_TO_PICKUP"
+msgstr "Wartet auf Abholung durch Empfänger"
+
+#: components/latest-shipments.php:39
+msgid "CLIENT_HAS_PACKAGE"
+msgstr "Zugestellt"
+
+#: components/latest-shipments.php:40
+msgid "RETOUR"
+msgstr "Retour"
+
+#: components/latest-shipments.php:54
+msgid "Your last Shipments"
+msgstr "Deine letzten Sendungen"
+
+#: components/latest-shipments.php:62
+msgid "You have not shipped anything until yet"
+msgstr "Bislang hast du noch keine Sendungen mit Parcello synchronisiert"
+
+#: components/latest-shipments.php:95
+msgid "Not connected with an order"
+msgstr "Nicht mit einer Bestellung verbunden"
+
+#: components/latest-shipments.php:97
+msgid "Order Id"
+msgstr "Bestellungs ID"
+
+#: components/latest-shipments.php:117
+msgid "See all shipments at Parcello"
+msgstr "Alle Sendungen auf Parcello ansehen"
+
+#: components/sidebar.php:68
+msgid "My Account"
+msgstr "Mein Konto"
+
+#: components/sidebar.php:76
+msgid "Connect Account"
+msgstr "Konto verbinden"
+
+#: components/sidebar.php:82 view/overview.php:22
+msgid "Overview"
+msgstr "Übersicht"
+
+#: components/sidebar.php:92
+msgid "Tracking Page"
+msgstr "Tracking Setup"
+
+#: components/sidebar.php:99 view/custom_css.php:11
+msgid "Widget Style"
+msgstr "Widget Style"
+
+#: components/sidebar.php:107
+msgid "All shipments"
+msgstr "Alle Sendungen"
+
+#: components/sidebar.php:111
+msgid "Analytics"
+msgstr "Analyse"
+
+#: components/sidebar.php:116
+msgid "Email Setup"
+msgstr "Email Einrichtung"
+
+#: components/sidebar.php:123
+msgid "Settings"
+msgstr ""
+
+#: components/sidebar.php:127
+msgid "Support"
+msgstr "Kundendienst"
+
+#: components/sidebar.php:134
+msgid "Data Policy"
+msgstr "Datenschutz"
+
+#: components/sidebar.php:142
+msgid "Disconnect"
+msgstr "Verbindung trennen"
+
+#: parcello-functions.php:258 parcello-functions.php:302
+msgid "Invalid nonce specified"
+msgstr "Falscher Sicherheitscode"
+
+#: parcello-functions.php:258 parcello-functions.php:302
+msgid "Error"
+msgstr "Fehler"
+
+#: parcello.php:160
+msgid "Parcello requires curl to work properly"
+msgstr "Parcello benötigt Curl"
+
+#: parcello.php:161
+msgid "how to install curl"
+msgstr "Curl installieren"
+
+#: parcello.php:171
+msgctxt "admin page title"
+msgid "Parcello"
+msgstr "Parcello"
+
+#: parcello.php:172
+msgctxt "admin menu entry title"
+msgid "Parcello"
+msgstr "Parcello"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: parcello.php:255 view/settings.php:33
+msgid "Parcello"
+msgstr "Parcello"
+
+#: view/admin.php:36
+#, php-format
+msgid ""
+"This plugin requires WordPress 4.7 or newer. You are on version %1$s. Please "
+"<a href=\"%2$s\">upgrade</a>."
+msgstr ""
+"Dieses Plugin benötigt Wordpress version 4.7 oder neuer.  Die aktuell "
+"installierte version ist %1$s. Bitte <a href=“%2$s”>aktualisiere</a> deine "
+"Wordpress Version."
+
+#: view/admin.php:47
+msgid "This tool requires that JavaScript be enabled to work."
+msgstr "Dieses Plugin benötigt Javascript um zu funktionieren"
+
+#: view/connect.php:14
+msgid "Hey there, it's parcello here ✌️"
+msgstr "Hey du, hier ist Parcello 👋"
+
+#: view/connect.php:18
+msgid "Keep going and connect your parcello account"
+msgstr "Verbinde deinen Parcello Account."
+
+#: view/connect.php:21
+msgid "For that simply follow these instructions"
+msgstr "Befolge dafür einfach diese Schritte"
+
+#: view/connect.php:25
+msgid "Go to parcello integration page"
+msgstr "1. Browse auf die Parcello Integrationsseite"
+
+#: view/connect.php:31
+msgid "Copy your token you'll see there"
+msgstr "2. Kopiere deinen Token"
+
+#: view/connect.php:38
+msgid "And drop that API-Token here"
+msgstr "3. Pack deinen Token in dieses Textfeld"
+
+#: view/connect.php:42
+msgid "API-Token"
+msgstr "Token"
+
+#: view/connect.php:48
+msgid "Connect"
+msgstr "Verbinden"
+
+#: view/custom_css.php:15
+msgid "🎉 &nbsp; Css Added Successfully"
+msgstr "🎉 &nbsp; Css erfolgreich aktualisiert"
+
+#: view/custom_css.php:19
+msgid "If you want to style the parcello widget you can use custom css"
+msgstr ""
+"Passe deine Sendungsverfolgung so an, dass sie perfekt zu deinen Nutzern "
+"passt. Für den einfachen Start haben wir dir ein paar Farbwerte und "
+"Einstellungen vorbereitet."
+
+#: view/custom_css.php:28
+msgid "Save css"
+msgstr "CSS Speichern"
+
+#: view/custom_css.php:30
+msgid "Empty the cache of your browser if style did not change automatically"
+msgstr ""
+"Leere regelmäßig den Cache auf deiner Seite, um die Änderungen zu sehen!"
+
+#: view/meta-box.php:128
+msgid "Parcello Sendungen"
+msgstr "Parcello Sendungen"
+
+#: view/meta-box.php:130
+msgid "Tracking id"
+msgstr "Tracking ID"
+
+#: view/meta-box.php:137
+#, php-format
+msgid "Sendung %s"
+msgstr "Sendung %s"
+
+#: view/meta-box.php:141
+msgid "Shipment is managed by Germanized"
+msgstr "Sendung wird von Germanized verwaltet"
+
+#: view/meta-box.php:148
+msgid "Tracking ID"
+msgstr "Tracking ID"
+
+#: view/meta-box.php:166
+msgid "Show parcello Widget"
+msgstr "Parcello Widget anzeigen"
+
+#: view/overview.php:30
+msgid "Domain is not verified"
+msgstr "Domain ist nicht verifiziert"
+
+#: view/overview.php:32
+msgid "That means that emails will not been sent automatically"
+msgstr ""
+"Um die Erfolgsrate deiner Emails zu verbessern verifiziere deine Domain"
+
+#: view/overview.php:35
+msgid "Verify Domain"
+msgstr "Verifiziere deine Domain"
+
+#: view/settings.php:14
+msgid "Select your preferred tracking method"
+msgstr "Wähle deine bevorzugte Tracking-Methode"
+
+#: view/settings.php:17
+msgid ""
+"Parcello integrates with several tracking environments. Per default we'll "
+"use Germanized if available"
+msgstr ""
+"Parcello lässt sich in mehrere Tracking-Umgebungen integrieren. "
+"Standardmäßig verwenden wir Germanized, falls verfügbar."
+
+#: view/settings.php:22
+msgid "The plugin will determine the right tracking method automatically"
+msgstr "Das Plugin ermittelt automatisch die richtige Tracking-Methode."
+
+#: view/settings.php:30
+msgid "Decide automatically"
+msgstr "Automatisch entscheiden"
+
+#: view/settings.php:31
+msgid "Germanized"
+msgstr "Germanized"
+
+#: view/settings.php:32
+msgid "Meta Fields"
+msgstr "Individuelle Felder"
+
+#: view/settings.php:41
+msgid "ID Field"
+msgstr "Tracking ID Feld"
+
+#: view/settings.php:45
+msgid "Carrier Field"
+msgstr "Versanddienstleister Feld"
+
+#: view/settings.php:53
+msgid "Save"
+msgstr "Speichern"
+
+#: view/settings.php:56
+#, fuzzy
+#| msgid "Tracking page was successfully updated"
+msgid "Tracking method was successfully updated"
+msgstr "Tracking Seite wurde erfolgreich aktualisiert"
+
+#: view/settings.php:59 view/tracking.php:46
+msgid "There was an error during Update"
+msgstr "Es kam zu einem Fehler beim Aktualisieren"
+
+#: view/support.php:11
+msgid "Is there anything we can help you with?"
+msgstr "Können wir dich unterstützen"
+
+#: view/support.php:15
+msgid ""
+"If you have trouble using this plugin, please feel free to drop us a message"
+msgstr ""
+"Wenn du Probleme bei der Verwendung des Plugins hast, schreibe uns eine "
+"Nachricht"
+
+#: view/support.php:22
+msgid ""
+"Of course your data will always be private you can read about how we're "
+"managing Data within our <a href=\"https://www.parcello.org/privacy\">data "
+"policies</a>"
+msgstr "Natürlich werden deine Daten immer mit absoluter Diskretion behandelt"
+
+#: view/tracking.php:14
+msgid "1. Create your own tracking page"
+msgstr "1. Erstelle deine eigene Tracking Seite"
+
+#: view/tracking.php:17
+msgid "On which page do you want to show the tracking information ?"
+msgstr "Auf welcher Seite soll die Sendungsverfolgung angezeigt werden?"
+
+#: view/tracking.php:21
+msgid ""
+"If you do not have one already, create one and select it here. </br> Leaving "
+"this field blank will end in redirecting your customers to a default page"
+msgstr ""
+"Wenn du noch keine hast, erstelle diese in deinem Shop und wähle sie hier "
+"aus. </br> Wenn freigelassen, leiten wir zu einer standard Seite weiter."
+
+#: view/tracking.php:26
+msgid "Currently no page is selected"
+msgstr "Aktuell ist keine Tracking Seite ausgewählt"
+
+#: view/tracking.php:34
+msgid "No tracking Page Selected"
+msgstr "Keine Tracking Seite ausgewählt"
+
+#: view/tracking.php:43
+msgid "Tracking page was successfully updated"
+msgstr "Tracking Seite wurde erfolgreich aktualisiert"
+
+#: view/tracking.php:57
+msgid "2. Integrate this Shortcode"
+msgstr "2. Füge diesen Shortcode ein"
+
+#: view/tracking.php:61
+msgid ""
+"After you have created the tracking page put the following shortcode inside"
+msgstr ""
+"Dann füge diesen Shortcode an der Stelle auf deiner Seite ein, wo die "
+"Sendungsverfolgung angezeigt werden soll."
+
+#: view/tracking.php:65
+msgid "successfull copied to Clipboard 🎉"
+msgstr "Shortcode wurde erfolgreich in deine Zwischenablage kopiert"
+
+#: view/tracking.php:75
+msgid "This will allow you to load the Parcello Tracking Frame."
+msgstr "Dieser Shortcode lädt das Tracking Frame"
+
+#: view/tracking.php:79
+msgid ""
+"If you do not know how to use shortcuts please follow the guidence <a href="
+"\"https://wordpress.com/support/wordpress-editor/blocks/shortcode-block/"
+"\">here</a>"
+msgstr ""
+"Wenn du noch Hilfe beim Einbinden des Shortcodes benötigst, findest du diese "
+"<a href=“https://wordpress.com/support/wordpress-editor/blocks/shortcode-"
+"block/“>hier</a>"
+
+#: view/widget.php:13
+#, php-format
+msgid "You Shipped %s Packages until yet"
+msgstr "Du hast bereits %s Sendungen verschickt"
+
+#: view/widget.php:21
+msgid "Email not verified"
+msgstr "E-Mail nicht verifiziert"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/parcello/"
+msgstr "https://wordpress.org/plugins/parcello/"
+
+#. Description of the plugin/theme
+msgid "Parcello let's your customers track their packages"
+msgstr ""
+"Parcello ermöglicht es Shopbesitzern ihre Sendungen einheitlich zu verfolgen"
+
+#. Author URI of the plugin/theme
+msgid "https://parcello.org"
+msgstr "https://parcello.org"
+
+#~ msgid "By submitting this form the Data will be send to Clickup"
+#~ msgstr "Beim Absenden dieses Formulars, werden Daten an Clickup übermittelt"
+
+#~ msgid ""
+#~ "If you want to prevent us sending those Data to clickup, please contact "
+#~ "us directly via Mail"
+#~ msgstr ""
+#~ "Wenn du nicht möchtest, dass wir deine Daten an Clickup übermitteln, "
+#~ "sende uns einfach eine Email"
+
+#~ msgid "Look at your last Shipments"
+#~ msgstr "Hier kannst du die 10 letzten Sendungen sehen."
+
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"

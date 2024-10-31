@@ -1,0 +1,347 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Parcello\n"
+"POT-Creation-Date: 2022-03-13 16:10+0100\n"
+"PO-Revision-Date: 2022-02-26 19:34+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: parcello.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: components/latest-shipments.php:33
+msgid "ORDER_RECEIVED"
+msgstr ""
+
+#: components/latest-shipments.php:34
+msgid "READY_TO_SHIP"
+msgstr ""
+
+#: components/latest-shipments.php:35
+msgid "ON_THE_WAY"
+msgstr ""
+
+#: components/latest-shipments.php:36
+msgid "LAST_MILE"
+msgstr ""
+
+#: components/latest-shipments.php:37
+msgid "SHIPMENT_PROBLEM"
+msgstr ""
+
+#: components/latest-shipments.php:38
+msgid "CLIENT_HAS_TO_PICKUP"
+msgstr ""
+
+#: components/latest-shipments.php:39
+msgid "CLIENT_HAS_PACKAGE"
+msgstr ""
+
+#: components/latest-shipments.php:40
+msgid "RETOUR"
+msgstr ""
+
+#: components/latest-shipments.php:54
+msgid "Your last Shipments"
+msgstr ""
+
+#: components/latest-shipments.php:62
+msgid "You have not shipped anything until yet"
+msgstr ""
+
+#: components/latest-shipments.php:95
+msgid "Not connected with an order"
+msgstr ""
+
+#: components/latest-shipments.php:97
+msgid "Order Id"
+msgstr ""
+
+#: components/latest-shipments.php:117
+msgid "See all shipments at Parcello"
+msgstr ""
+
+#: components/sidebar.php:68
+msgid "My Account"
+msgstr ""
+
+#: components/sidebar.php:76
+msgid "Connect Account"
+msgstr ""
+
+#: components/sidebar.php:82 view/overview.php:22
+msgid "Overview"
+msgstr ""
+
+#: components/sidebar.php:92
+msgid "Tracking Page"
+msgstr ""
+
+#: components/sidebar.php:99 view/custom_css.php:11
+msgid "Widget Style"
+msgstr ""
+
+#: components/sidebar.php:107
+msgid "All shipments"
+msgstr ""
+
+#: components/sidebar.php:111
+msgid "Analytics"
+msgstr ""
+
+#: components/sidebar.php:116
+msgid "Email Setup"
+msgstr ""
+
+#: components/sidebar.php:123
+msgid "Support"
+msgstr ""
+
+#: components/sidebar.php:129
+msgid "Data Policy"
+msgstr ""
+
+#: components/sidebar.php:137
+msgid "Disconnect"
+msgstr ""
+
+#: parcello-functions.php:224
+msgid "Invalid nonce specified"
+msgstr ""
+
+#: parcello-functions.php:224
+msgid "Error"
+msgstr ""
+
+#: parcello.php:159
+msgid "Parcello requires curl to work properly"
+msgstr ""
+
+#: parcello.php:160
+msgid "how to install curl"
+msgstr ""
+
+#: parcello.php:170
+msgctxt "admin page title"
+msgid "Parcello"
+msgstr ""
+
+#: parcello.php:171
+msgctxt "admin menu entry title"
+msgid "Parcello"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: parcello.php:254
+msgid "Parcello"
+msgstr ""
+
+#: view/admin.php:36
+#, php-format
+msgid ""
+"This plugin requires WordPress 4.7 or newer. You are on version %1$s. Please "
+"<a href=\"%2$s\">upgrade</a>."
+msgstr ""
+
+#: view/admin.php:47
+msgid "This tool requires that JavaScript be enabled to work."
+msgstr ""
+
+#: view/connect.php:14
+msgid "Hey there, it's parcello here ✌️"
+msgstr ""
+
+#: view/connect.php:18
+msgid "Keep going and connect your parcello account"
+msgstr ""
+
+#: view/connect.php:21
+msgid "For that simply follow these instructions"
+msgstr ""
+
+#: view/connect.php:25
+msgid "Go to parcello integration page"
+msgstr ""
+
+#: view/connect.php:31
+msgid "Copy your token you'll see there"
+msgstr ""
+
+#: view/connect.php:38
+msgid "And drop that API-Token here"
+msgstr ""
+
+#: view/connect.php:42
+msgid "API-Token"
+msgstr ""
+
+#: view/connect.php:48
+msgid "Connect"
+msgstr ""
+
+#: view/custom_css.php:15
+msgid "🎉 &nbsp; Css Added Successfully"
+msgstr ""
+
+#: view/custom_css.php:19
+msgid "If you want to style the parcello widget you can use custom css"
+msgstr ""
+
+#: view/custom_css.php:28
+msgid "Save css"
+msgstr ""
+
+#: view/custom_css.php:30
+msgid "Empty the cache of your browser if style did not change automatically"
+msgstr ""
+
+#: view/meta-box.php:128
+msgid "Parcello Sendungen"
+msgstr ""
+
+#: view/meta-box.php:130
+msgid "Tracking id"
+msgstr ""
+
+#: view/meta-box.php:137
+#, php-format
+msgid "Sendung %s"
+msgstr ""
+
+#: view/meta-box.php:141
+msgid "Shipment is managed by Germanized"
+msgstr ""
+
+#: view/meta-box.php:148
+msgid "Tracking ID"
+msgstr ""
+
+#: view/meta-box.php:166
+msgid "Show parcello Widget"
+msgstr ""
+
+#: view/overview.php:30
+msgid "Domain is not verified"
+msgstr ""
+
+#: view/overview.php:32
+msgid "That means that emails will not been sent automatically"
+msgstr ""
+
+#: view/overview.php:35
+msgid "Verify Domain"
+msgstr ""
+
+#: view/support.php:11
+msgid "Is there anything we can help you with?"
+msgstr ""
+
+#: view/support.php:15
+msgid ""
+"If you have trouble using this plugin, please feel free to drop us a message"
+msgstr ""
+
+#: view/support.php:19
+msgid "By submitting this form the Data will be send to Clickup"
+msgstr ""
+
+#: view/support.php:22
+msgid ""
+"If you want to prevent us sending those Data to clickup, please contact us "
+"directly via Mail"
+msgstr ""
+
+#: view/support.php:26
+msgid ""
+"Of course your data will always be private you can read about how we're "
+"managing Data within our <a href=\"https://www.parcello.org/privacy\">data "
+"policies</a>"
+msgstr ""
+
+#: view/tracking.php:14
+msgid "1. Create your own tracking page"
+msgstr ""
+
+#: view/tracking.php:17
+msgid "On which page do you want to show the tracking information ?"
+msgstr ""
+
+#: view/tracking.php:21
+msgid ""
+"If you do not have one already, create one and select it here. </br> Leaving "
+"this field blank will end in redirecting your customers to a default page"
+msgstr ""
+
+#: view/tracking.php:26
+msgid "Currently no page is selected"
+msgstr ""
+
+#: view/tracking.php:32
+msgid "No tracking Page Selected"
+msgstr ""
+
+#: view/tracking.php:44
+msgid "Tracking page was successfully updated"
+msgstr ""
+
+#: view/tracking.php:47
+msgid "There was an error during Update"
+msgstr ""
+
+#: view/tracking.php:58
+msgid "2. Integrate this Shortcode"
+msgstr ""
+
+#: view/tracking.php:62
+msgid ""
+"After you have created the tracking page put the following shortcode inside"
+msgstr ""
+
+#: view/tracking.php:66
+msgid "successfull copied to Clipboard 🎉"
+msgstr ""
+
+#: view/tracking.php:76
+msgid "This will allow you to load the Parcello Tracking Frame."
+msgstr ""
+
+#: view/tracking.php:80
+msgid ""
+"If you do not know how to use shortcuts please follow the guidence <a href="
+"\"https://wordpress.com/support/wordpress-editor/blocks/shortcode-block/"
+"\">here</a>"
+msgstr ""
+
+#: view/widget.php:13
+#, php-format
+msgid "You Shipped %s Packages until yet"
+msgstr ""
+
+#: view/widget.php:21
+msgid "Email not verified"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/parcello/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Parcello let's your customers track their packages"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://parcello.org"
+msgstr ""
